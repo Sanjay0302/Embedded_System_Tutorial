@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <title>Document</title>
@@ -8,18 +9,55 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
   <!-- <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css"> -->
   <link rel="stylesheet" href="./_themes/vue.css">
+  <link rel="stylesheet" href="_searchbar_styles.css">
 
 </head>
+
 <body>
   <div id="app"></div>
   <script>
     window.$docsify = {
       name: 'sanjaybyranna',
       repo: 'https://github.com/Sanjay0302/Embedded_System_Tutorial',
-      coverpage: true
+      coverpage: true,    
+      loadSidebar: true,
+      loadNavbar: function (_navbar, _vm) {
+        _vm.$docsify.loadSidebar();
+      },
+      subMaxLevel: 3,
+      // Search Plugin
+      search: {
+        maxAge: 86400000, // Expiration time, the default one day
+        hotKeys: {
+          '/': 'search', // Toggle search box with '/'
+          'ctrl+alt+f': 'searchWorker', // Open search worker with 'ctrl+alt+f'
+        },
+        paths: 'auto', // or 'auto'
+        // paths: [
+        //   '/',            // => /README.md
+        //   '/guide',       // => /guide.md
+        //   '/guide/foo.md' // => /guide/foo.md
+        // ],
+        // // or
+        // paths: [
+        //   '/',
+        //   '/guide',
+        //   '!/guide/foo.md' // Exclude /guide/foo.md
+        // ]
+        placeholder: 'Search anything here',
+        noData: 'Oops! You are thinking out of the box',
+        // Headline depth, 1 - 6
+        depth: 6,
+        hideOtherSidebarContent: true, // whether or not to hide other sidebar content
+      },
+
     }
   </script>
+
   <!-- Docsify v4 -->
   <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+  <!-- Search Plugin -->
+  <script src="//cdn.jsdelivr.net/npm/docsify@4/lib/plugins/search.min.js"></script>
 </body>
+
 </html>

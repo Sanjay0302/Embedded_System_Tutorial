@@ -1,3 +1,1 @@
-# Embedded System
-
-> An awesome project. 
+# Home
