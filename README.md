@@ -1,1 +1,1 @@
-Docsify website of this repo is deployed Here : [Link](https://github.com/Sanjay0302/Embedded_System_Tutorial/deployments/github-pages)
+Docsify website of this repo is deployed Here : [Link](https://sanjay0302.github.io/Embedded_System_Tutorial/)
