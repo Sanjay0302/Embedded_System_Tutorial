@@ -9,7 +9,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
   <link type="image/png" sizes="120x120" rel="icon" href="./assets/favicon/120.png">
-  <link rel="stylesheet" href="./assets/css/image.css">
+  <link rel="stylesheet" href="./assets/css/custom.css">
   <link rel="stylesheet" href="./assets/css/searchbar_styles.css">
 </head>
 
@@ -48,6 +48,14 @@
         crossChapter: true,
         crossChapterText: true
       },
+
+      tabs: {
+      persist: true, // Determines if tab selections will be restored after a page refresh/revisit.
+      sync: true, // Determines if tab selections will be synced across tabs with matching labels.
+      theme: 'classic', // default //material and classic
+      tabComments: true, // default
+      tabHeadings: true // default
+    }
 
     }
   </script>

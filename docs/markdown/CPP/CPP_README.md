@@ -10,19 +10,55 @@ https://www.learncpp.com/
 
 <!-- tabs:start -->
 
-#### **English**
+#### **:smile:**
 
-Hello!
+Hello world!
 
-#### **French**
+#### **<span style="color: red;">French</span>**
 
 Bonjour!
 
-#### **Italian**
+#### **<em>Italian</em>**
+
+Ciao!
+
+
+<!-- tabs:end -->
+
+
+<!-- tabs:start -->
+
+<!-- tab:English -->
+
+Hello!
+
+<!-- tab:French -->
+
+Bonjour!
+
+<!-- tab:Italian -->
 
 Ciao!
 
 <!-- tabs:end -->
+
+
+<!-- tabs:start -->
+
+<!-- tab:Program -->
+```c
+#include<stdio.h>
+int main() {
+    printf("Hello, World!\n");
+    return 0;
+}
+```
+<!-- tab:Output -->
+Hello, World!
+
+
+<!-- tabs:end -->
+
 
 
 ```c

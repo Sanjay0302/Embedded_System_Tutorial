@@ -1,0 +1,50 @@
+/* Image Markdown inline class:myimage starts here  */
+
+.myimage {
+  border: 1px solid #000;
+  border-radius: 20px;
+  padding: 10px;
+  /* margin-right: 20px; */
+  /* float: right; */
+}
+
+/* Image Markdown inline class:myimage ends here  */
+
+
+/* Tabs Badge Reference : https://jhildenbiddle.github.io/docsify-tabs/#/?id=theme */
+/* Tabs CSS start here */
+
+  /* 
+  :root {
+    --docsifytabs-border-color: #ededed;
+    --docsifytabs-tab-highlight-color: #42b983;
+  }
+
+  .docsify-tabs {
+    border: 1px solid var(--docsifytabs-border-color);
+    border-radius: 15px;
+    overflow: hidden;
+  } */
+
+  :root {
+    /* Tab blocks */
+    --docsifytabs-border-color: #ededed;
+    --docsifytabs-border-px: 3px;
+    --docsifytabs-border-radius-px: 10px ;
+    --docsifytabs-margin: 1.5em 0;
+
+    /* Tabs */
+    --docsifytabs-tab-background: #f0f0f0;
+    --docsifytabs-tab-background--active: var(--docsifytabs-content-background);
+    --docsifytabs-tab-color: #999;
+    --docsifytabs-tab-color--active: #42b983;
+    --docsifytabs-tab-highlight-px: 2px;
+    --docsifytabs-tab-highlight-color: var(--theme-color, currentColor);
+    --docsifytabs-tab-padding: 0.6em 2em;
+
+    /* Tab content */
+    --docsifytabs-content-background: inherit;
+    --docsifytabs-content-padding: 1.5rem;
+  }
+
+/* Tabs CSS end here */
