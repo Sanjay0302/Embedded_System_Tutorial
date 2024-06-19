@@ -12,4 +12,3 @@ document.write('<script src="//cdnjs.cloudflare.com/ajax/libs/pdfobject/2.1.1/pd
 document.write('<script src="path-to-file/docsify-pdf-embed.js"></script>');
 // or use this if you are not hosting the file yourself
 document.write('<script src="//unpkg.com/docsify-pdf-embed-plugin/src/docsify-pdf-embed.js"><\/script>');
-

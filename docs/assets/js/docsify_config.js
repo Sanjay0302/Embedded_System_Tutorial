@@ -5,10 +5,9 @@ window.$docsify = {
     homepage: 'README.md',
     loadSidebar: true,
     loadNavbar: true,
-
     maxLevel: 3,
     subMaxLevel: 3,
-
+    sidebarDisplayLevel: 2,
     search: 'auto',
     // complete configuration parameters
     search: {
