@@ -18,7 +18,7 @@ body:not(.ready) {
 }
 
 .search .input-wrap {
-	margin-top: 10px !important;
+	margin-top: 20px !important;
 }
 
 .search input {
@@ -74,15 +74,6 @@ div#app:empty:before {
 	font-style: normal;
 	font-weight: 700
 }
-.sidebar .search .results-panel {
-    /* Styles for the search results panel */
-    /* border: 1px solid #ccc; */
-    /* border: none; */
-    border-radius: 6px;
-    background-color: auto;
-    padding: 10px 15px;
-
-  }
 
 body,
 html {
@@ -365,7 +356,7 @@ main.hidden {
 }
 
 .sidebar-toggle:hover .sidebar-toggle-button {
-	opacity: .5
+	opacity: .4
 }
 
 .sidebar-toggle span {
