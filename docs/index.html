@@ -3,33 +3,35 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>Embedded System & IOT</title>
+  <title>Embedded System and IOT</title>
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-  <meta name="description" content="Description">
+  <meta name="description" content="Embedded System and IOT">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
-  <link rel="stylesheet" href="/docs/_assets/_css/_searchbar_styles.css">
-  <link type="image/png" sizes="120x120" rel="icon" href="./_assets/_favicon/32.png">
+  <!-- Custom style addition -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <!-- <link rel="stylesheet" href="./assets/css/docsify_style.css"> -->
+  <link rel="stylesheet" href="./assets/themeabledocs/css/style.css">
+  <link type="image/png" sizes="120x120" rel="icon" href="./assets/favicon/120.png">
 
 
 </head>
 
 <body>
-  <div id="app"></div>
+  <div id="app">Please Wait...</div>
   <script>
     window.$docsify = {
       name: 'sanjaybyranna',
       repo: 'https://github.com/Sanjay0302/Embedded_System_Tutorial',
       coverpage: true,
+      homepage: 'README.md',
       loadSidebar: true,
-      loadNavbar: function (_navbar, _vm) {
-        _vm.$docsify.loadSidebar();
-      },
       loadNavbar: true,
+
+      maxLevel: 3,
       subMaxLevel: 3,
 
-      search: 'auto', // default
-
+      search: 'auto',
       // complete configuration parameters
       search: {
         maxAge: 86400000, // Expiration time, the default one day
@@ -39,13 +41,40 @@
         // Headline depth, 1 - 6
         depth: 6,
         hideOtherSidebarContent: true, // whether or not to hide other sidebar content
-      }
+      },
+      themeable: {
+        responsiveTables: true
+      },
+
+      pagination: {
+        previousText: 'Previous',
+        nextText: 'Next',
+        crossChapter: true,
+        crossChapterText: true
+      },
 
     }
   </script>
   <!-- Docsify v4 -->
   <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+  <!-- plugins -->
+  <script src="/assets/js/index.js"></script>
+  <script src="/assets/themeabledocs/js/index.js"></script>
+  <script src="/assets/themeabledocs/js/main.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/docsify-tabs@1"></script>
+  <script src="https://cdn.jsdelivr.net/npm/docsify-tabs@1"></script>
   <script src="//unpkg.com/docsify/lib/plugins/search.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/docsify-copy-code"></script>
+  <script src="https://cdn.jsdelivr.net/npm/docsify-pagination@2/dist/docsify-pagination.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/plugins/zoom-image.min.js"></script>
+  <!-- PDFObject.js is a required dependency of this plugin -->
+  <script src="//cdnjs.cloudflare.com/ajax/libs/pdfobject/2.1.1/pdfobject.min.js"></script>
+  <!-- This is the source code of the pdf embed plugin -->
+  <script src="path-to-file/docsify-pdf-embed.js"></script>
+  <!-- or use this if you are not hosting the file yourself -->
+  <script src="//unpkg.com/docsify-pdf-embed-plugin/src/docsify-pdf-embed.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/docsify-themeable@0"></script>
+
 </body>
 
 </html>
