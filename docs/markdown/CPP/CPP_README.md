@@ -44,6 +44,6 @@ blah blah blah
 https://www.lpude.in/SLMs/Master%20of%20Computer%20Applications/Sem_1/DECAP010_PROGRAMMING_IN_C.pdf
 ``` 
 
-```pdf
-\codes\main.c
-```
+<!-- ```pdf
+./assets/pdf/pdf1.pdf
+``` -->
