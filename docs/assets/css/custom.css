@@ -1,50 +1,85 @@
-/* Image Markdown inline class:myimage starts here  */
+/* Contains
+
+1. image CSS for inline image adding in markdown
+2. Tabs CSS for adding tabs in markdown
+
+*/
+
+/* ######################################################################### */
+
+
+/* Image Markdown inline class:myimage STARTS */
 
 .myimage {
   border: 1px solid #000;
   border-radius: 20px;
   padding: 10px;
-  /* margin-right: 20px; */
-  /* float: right; */
 }
 
-/* Image Markdown inline class:myimage ends here  */
+/* Image Markdown inline class:myimage ENDS  */
 
+/* ######################################################################### */
 
+/* Tabs CSS STARTS */
 /* Tabs Badge Reference : https://jhildenbiddle.github.io/docsify-tabs/#/?id=theme */
-/* Tabs CSS start here */
 
-  /* 
-  :root {
-    --docsifytabs-border-color: #ededed;
-    --docsifytabs-tab-highlight-color: #42b983;
-  }
+:root {
+  /* Tab blocks */
+  --docsifytabs-border-color: #ededed;
+  --docsifytabs-border-px: 3px;
+  --docsifytabs-border-radius-px: 10px;
+  --docsifytabs-margin: 1.5em 0;
 
-  .docsify-tabs {
-    border: 1px solid var(--docsifytabs-border-color);
-    border-radius: 15px;
-    overflow: hidden;
-  } */
+  /* Tabs */
+  --docsifytabs-tab-background: #f0f0f0;
+  --docsifytabs-tab-background--active: var(--docsifytabs-content-background);
+  --docsifytabs-tab-color: #999;
+  --docsifytabs-tab-color--active: #42b983;
+  --docsifytabs-tab-highlight-px: 2px;
+  --docsifytabs-tab-highlight-color: var(--theme-color, currentColor);
+  --docsifytabs-tab-padding: 0.6em 2em;
 
-  :root {
-    /* Tab blocks */
-    --docsifytabs-border-color: #ededed;
-    --docsifytabs-border-px: 3px;
-    --docsifytabs-border-radius-px: 10px ;
-    --docsifytabs-margin: 1.5em 0;
+  /* Tab content */
+  --docsifytabs-content-background: inherit;
+  --docsifytabs-content-padding: 1.5rem;
+}
 
-    /* Tabs */
-    --docsifytabs-tab-background: #f0f0f0;
-    --docsifytabs-tab-background--active: var(--docsifytabs-content-background);
-    --docsifytabs-tab-color: #999;
-    --docsifytabs-tab-color--active: #42b983;
-    --docsifytabs-tab-highlight-px: 2px;
-    --docsifytabs-tab-highlight-color: var(--theme-color, currentColor);
-    --docsifytabs-tab-padding: 0.6em 2em;
+/* Tabs CSS ENDS */
 
-    /* Tab content */
-    --docsifytabs-content-background: inherit;
-    --docsifytabs-content-padding: 1.5rem;
-  }
+/* ######################################################################### */
 
-/* Tabs CSS end here */
+/* Search bar CSS STARTS */
+
+.sidebar .search {
+  /* Styles for the search box container */
+  padding: 10px;
+  background-color: #f5f5f5;
+  border-radius: 6px;
+}
+
+.sidebar .search .input-wrap {
+  /* Styles for the search input field */
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.sidebar .search .input-wrap input {
+  /* Styles for the search input text */
+  padding: 6px 10px;
+  font-size: 14px;
+  color: #333;
+  border-radius: 6px;
+
+}
+
+.sidebar .search .results-panel {
+  /* Styles for the search results panel */
+  border: 1px solid #ccc;
+  /* border: none; */
+  /* border-radius: 6px; */
+  background-color: #fff;
+  padding: 10px 15px;
+
+}
+
+/* Search bar CSS ENDS */

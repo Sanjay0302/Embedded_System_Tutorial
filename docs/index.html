@@ -7,72 +7,25 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
   <meta name="description" content="Embedded System and IOT">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
-  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
+  <!-- FavICON -->
   <link type="image/png" sizes="120x120" rel="icon" href="./assets/favicon/120.png">
-  <link rel="stylesheet" href="./assets/css/custom.css">
-  <link rel="stylesheet" href="./assets/css/searchbar_styles.css">
+
+  <!-- Single CSS Add any new css link to this file ./assets/css/singlecss.css-->
+  <link rel="stylesheet" href="./assets/css/singlecss.css">
+
+  <!-- Custom Added CSS ENDS -->
 </head>
 
 <body>
   <div id="app">Please Wait...</div>
-  <script>
-    window.$docsify = {
-      name: 'sanjaybyranna',
-      repo: 'https://github.com/Sanjay0302/Embedded_System_Tutorial',
-      coverpage: true,
-      homepage: 'README.md',
-      loadSidebar: true,
-      loadNavbar: true,
-
-      maxLevel: 3,
-      subMaxLevel: 3,
-
-      search: 'auto',
-      // complete configuration parameters
-      search: {
-        maxAge: 86400000, // Expiration time, the default one day
-        paths: 'auto',
-        placeholder: 'Search here for anything',
-        noData: 'Oops! out of the box',
-        // Headline depth, 1 - 6
-        depth: 6,
-        hideOtherSidebarContent: true, // whether or not to hide other sidebar content
-      },
-      themeable: {
-        responsiveTables: true
-      },
-
-      pagination: {
-        previousText: 'Previous',
-        nextText: 'Next',
-        crossChapter: true,
-        crossChapterText: true
-      },
-
-      tabs: {
-      persist: true, // Determines if tab selections will be restored after a page refresh/revisit.
-      sync: true, // Determines if tab selections will be synced across tabs with matching labels.
-      theme: 'classic', // default //material and classic
-      tabComments: true, // default
-      tabHeadings: true // default
-    }
-
-    }
-  </script>
   <!-- Docsify v4 -->
   <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
-  <!-- plugins -->
-  <script src="https://cdn.jsdelivr.net/npm/docsify-tabs@1"></script>
-  <script src="//unpkg.com/docsify/lib/plugins/search.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/docsify-copy-code"></script>
-  <script src="https://cdn.jsdelivr.net/npm/docsify-pagination@2/dist/docsify-pagination.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/plugins/zoom-image.min.js"></script>
-  <!-- PDFObject.js is a required dependency of this plugin -->
-  <script src="//cdnjs.cloudflare.com/ajax/libs/pdfobject/2.1.1/pdfobject.min.js"></script>
-  <!-- This is the source code of the pdf embed plugin -->
-  <script src="path-to-file/docsify-pdf-embed.js"></script>
-  <!-- or use this if you are not hosting the file yourself -->
-  <script src="//unpkg.com/docsify-pdf-embed-plugin/src/docsify-pdf-embed.js"></script>
+
+  <!-- to add new plugin and docsify configs go to ./assets/js/docsify_config.js -->
+  <script src="./assets/js/docsify_config.js"></script>
+
+  <!-- to add new plugin js scripts go to './assets/js/single.js'-->
+  <script src="./assets/js/singlejs.js"></script>
 
 </body>
 
