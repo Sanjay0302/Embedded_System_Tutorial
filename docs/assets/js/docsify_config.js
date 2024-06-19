@@ -7,7 +7,7 @@ window.$docsify = {
     loadNavbar: true,
     maxLevel: 3,
     subMaxLevel: 3,
-    sidebarDisplayLevel: 2,
+    auto2top: true, // Automatically scroll to the top when changing the page
     search: 'auto',
     // complete configuration parameters
     search: {
