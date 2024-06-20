@@ -37,7 +37,7 @@ This will create a new SSH key pair in the `.git` directory of your repository.
 
 > Till now the configurations were made for local version control, but to reflect the commits in a remote server like GitHub, GitLab, or Bitbucket, we need to add the credentials also. To do that, we need to use a Credential Manager application because Git no longer supports the **addition of account with two factor authentication** alone.
 
-## Credential Manager application.
+## Credential Manager application <!-- {docsify-ignore} -->
 - Recommended to install [Github CLI for Windows, Linux, Mac](https://cli.github.com/)
 - After installing `gh-cli` authenticate the account using below method
 ```bash
@@ -49,7 +49,7 @@ gh auth login
     > - To switch between github accounts locally use this `gh auth switch`, if there are more than 2 user, use this `gh auth swith --user <user_name>`.
     >  - we can use this command to declare login scopes `gh auth login --hostname github.com --scopes repo` 
     
-## Create a new repo
+## Create a new repo 
 
 ```bash
 gh repo create <repo_name> --description "<repo_description>" --private
@@ -57,13 +57,13 @@ gh repo create <repo_name> --description "<repo_description>" --private
 Replace `<repo_name>` with the desired name for your repository, and `<repo_description>` with a brief description.
 >We can also use `--private` or `--public`
 
-## Add remote:
+## Add remote 
 ```bash
 git remote add origin git@github.com:<your_username>/<repo_name>.git
 ```
 Replace `<your_username>` with your actual GitHub username, and `<repo_name>` with the name of the repository you created in the previous step.
 
-## Commit and Push:
+## Commit and Push 
 1. Add all files in staging area:
     ```bash
     git add .
@@ -82,7 +82,7 @@ Replace `<your_username>` with your actual GitHub username, and `<repo_name>` wi
     git push -u origin main
     ```
 
-## Syncing Remote repo
+## Syncing Remote repo 
 
 > To fetch the latest data without merging
 ```bash
@@ -97,7 +97,7 @@ By using the `--local` flag with `git config`, you've set up the Git configurati
 
 ---
 
-## Branch Mangement
+## Branch Mangement <!-- {docsify-ignore} -->
 ```bash
 
 # Show the branch details
@@ -126,13 +126,13 @@ git push origin :<old_branch_name> <new_branch_name>
 ```
 ---
 
-# Git Advanced
+# Git Advanced 
 
 <div class="markmap-container">
 
 <!-- space after div tag is needed else error -->
 ```markmap
-
+# markmap 
 ## Links
 
 - [Website](https://markmap.js.org/)
