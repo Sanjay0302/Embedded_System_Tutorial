@@ -11,9 +11,10 @@ window.$docsify = {
     subMaxLevel: 3,
     auto2top: true, // Automatically scroll to the top when changing the page
     search: 'auto',
-    basePath: '/docs/',
+  
     cornerExternalLinkTarget: '_self', // or default: _blank
     executeScript: true,
+    
     // complete configuration parameters
     search: {
         maxAge: 86400000, // Expiration time, the default one day

@@ -18,9 +18,7 @@ document.write('<script src="//cdnjs.cloudflare.com/ajax/libs/pdfobject/2.1.1/pd
 
 
 // Markmap CDN scripts, referense `https://github.com/rcqed/docsify-markmap.js/`
+// these below CDN files are customised and used in loacl files in index.html, these links are customised to cumpatible with the custome css and to avoid div tag in markmap embed, so to know the error see the commit b4202e1 and 
 // document.write('<script src="https://cdn.jsdelivr.net/npm/markmap-autoloader@0.15.2"></script>');
 // document.write('<script src="https://cdn.jsdelivr.net/npm/docsify-markmap.js@1.0.0/docsify-markmap.min.js"></script>');
-// used loacl files
-document.write('<script src="/docs/assets/js/markmap-autoloader@0.15.2"><\/script>')
-document.write('<script src="/docs/assets/js/docsify-markmap.min.js"><\/script>')
 
