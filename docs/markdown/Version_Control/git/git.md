@@ -128,6 +128,7 @@ git push origin :<old_branch_name> <new_branch_name>
 
 # Git Advanced
 
+<div class="markmap-container">
 ```markmap
 
 ## Links
@@ -144,4 +145,4 @@ git push origin :<old_branch_name> <new_branch_name>
 - Note that if blocks and lists appear at the same level, the lists will be ignored.
 
 ```
-
+</div>
