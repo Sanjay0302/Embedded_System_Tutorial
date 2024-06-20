@@ -47,3 +47,15 @@
 /* Tabs CSS ENDS */
 
 /* ######################################################################### */
+
+/* Markmap CSS STARTS */
+.markmap {
+  width: 100%;
+  height: 500px;
+  border: 1px solid #aaaaaa; /* Adds a 2px solid black border */
+  border-radius: 15px; /* Optional: adds rounded corners */
+}
+
+
+
+/* Markmap CSS ENDS */

@@ -12,3 +12,9 @@ document.write('<script src="//cdnjs.cloudflare.com/ajax/libs/pdfobject/2.1.1/pd
 document.write('<script src="path-to-file/docsify-pdf-embed.js"></script>');
 // or use this if you are not hosting the file yourself
 document.write('<script src="//unpkg.com/docsify-pdf-embed-plugin/src/docsify-pdf-embed.js"><\/script>');
+
+// Markmap CDN scripts, referense `https://github.com/rcqed/docsify-markmap.js/`
+document.write('<script src="https://cdn.jsdelivr.net/npm/markmap-autoloader@0.15.2"></script>');
+document.write('<script src="https://cdn.jsdelivr.net/npm/docsify-markmap.js@1.0.0/docsify-markmap.min.js"></script>');
+
+
