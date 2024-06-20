@@ -129,6 +129,8 @@ git push origin :<old_branch_name> <new_branch_name>
 # Git Advanced
 
 <div class="markmap-container">
+
+<!-- space after div tag is needed else error -->
 ```markmap
 
 ## Links
