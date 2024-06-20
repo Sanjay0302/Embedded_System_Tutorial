@@ -2,6 +2,5 @@
 @import url('./custom.css');
 
 /* Docsify theme  */
-@import url('//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css');
-
+@import url('//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css'); /* or dark, buble, pure  */
 @import url('./searchbar.css');

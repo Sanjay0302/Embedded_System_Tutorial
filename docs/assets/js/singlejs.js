@@ -6,16 +6,21 @@ document.write('<script src="//unpkg.com/docsify/lib/plugins/search.min.js"><\/s
 document.write('<script src="https://cdn.jsdelivr.net/npm/docsify-copy-code"><\/script>');
 document.write('<script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/plugins/zoom-image.min.js"><\/script>');
 document.write('<script src="https://cdn.jsdelivr.net/npm/docsify-pagination@2/dist/docsify-pagination.min.js"><\/script>');
+document.write('<script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/emoji.min.js"></script>');
 
 // This is the source code of the pdf embed plugin 
-document.write('<script src="path-to-file/docsify-pdf-embed.js"></script>');
+// document.write('<script src="path-to-file/docsify-pdf-embed.js"></script>');
+
 // or use this if you are not hosting the file yourself
 document.write('<script src="//unpkg.com/docsify-pdf-embed-plugin/src/docsify-pdf-embed.js"><\/script>');
 // PDFObject.js is a required dependency of this plugin
 document.write('<script src="//cdnjs.cloudflare.com/ajax/libs/pdfobject/2.1.1/pdfobject.min.js"><\/script>');
 
-// Markmap CDN scripts, referense `https://github.com/rcqed/docsify-markmap.js/`
-document.write('<script src="https://cdn.jsdelivr.net/npm/markmap-autoloader@0.15.2"></script>');
-document.write('<script src="https://cdn.jsdelivr.net/npm/docsify-markmap.js@1.0.0/docsify-markmap.min.js"></script>');
 
+// Markmap CDN scripts, referense `https://github.com/rcqed/docsify-markmap.js/`
+// document.write('<script src="https://cdn.jsdelivr.net/npm/markmap-autoloader@0.15.2"></script>');
+// document.write('<script src="https://cdn.jsdelivr.net/npm/docsify-markmap.js@1.0.0/docsify-markmap.min.js"></script>');
+// used loacl files
+document.write('<script src="/docs/assets/js/markmap-autoloader@0.15.2"><\/script>')
+document.write('<script src="/docs/assets/js/docsify-markmap.min.js"><\/script>')
 

@@ -4,11 +4,16 @@ window.$docsify = {
     coverpage: true,
     homepage: 'README.md',
     loadSidebar: true,
+    // loadSidebar: 'summary.md', // load sidebar from another file.
+    // hideSidebar: false, // to hide the sidebar completely,  remove lodeSidebar before using this
     loadNavbar: true,
-    maxLevel: 3,
+    maxLevel: 3, // Maximum Table of content level.
     subMaxLevel: 3,
     auto2top: true, // Automatically scroll to the top when changing the page
     search: 'auto',
+    basePath: '/docs/',
+    cornerExternalLinkTarget: '_self', // or default: _blank
+    executeScript: true,
     // complete configuration parameters
     search: {
         maxAge: 86400000, // Expiration time, the default one day
@@ -37,5 +42,16 @@ window.$docsify = {
         tabComments: true, // default
         tabHeadings: true // default
     },
+
+    markdown: {
+        renderer: {
+          code: function(code, lang) {
+            if (lang === "markmap") {
+              return '<pre data-lang="markmap">' + code + '</pre>';
+            }
+            return this.origin.code.apply(this, arguments);
+          }
+        }
+      },
 
 };
