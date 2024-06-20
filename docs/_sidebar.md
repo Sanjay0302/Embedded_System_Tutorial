@@ -11,10 +11,15 @@
 * [FAQ](/faq.md) -->
 
 
-* [Basics](README.md) 
-  * [CPP](./markdown/CPP/CPP_README.md)
-  * [Python](./markdown/Python/Python_README.md "Python Basics")
-  
+* **Basics**
+
+* [CPP](./markdown/CPP/CPP_README.md)
+* [Python](./markdown/Python/Python_README.md "Python Basics")
+
+* **Version Control**
+* [Introduction](./markdown/Version_Control/git/intro.md)
+* [GIT](./markdown/Version_Control/git/git.md)
+
 
 - **Links**
 - [Github @sanjaybyrana](https://github.com/Sanjay0302/)
