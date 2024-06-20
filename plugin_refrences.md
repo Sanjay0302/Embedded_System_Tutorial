@@ -9,3 +9,5 @@
 
 
 [image to base64 convertor](https://www.base64encoder.io/image-to-base64-converter/)
+
+[Makmap toolbar]('https://stackoverflow.com/questions/78174441/markmap-toolbar-renders-but-doesnt-attach-to-the-embedded-script)
